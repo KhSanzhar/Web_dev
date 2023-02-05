@@ -253,7 +253,8 @@ ul {
     color: #0067b8;
     font-weight: 600;
 }
-.footer .frame-links a:hover{
+
+.footer .frame-links a:hover {
     margin-right: 20px;
     text-decoration: underline;
     color: #0067b8;

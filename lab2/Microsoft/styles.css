@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 87%;
+    font-size: 14px;
+    margin-left: 8%;
+}
+
+/* LEFT SIDE */
+
+.header-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-main nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-main nav ul li {
+    height: 55px;
+    padding: 4px;
+    background-color: #fff;
+    border: none;
+    margin: 8% 3%;
+}
+
+.header-main a {
+    text-decoration: none;
+    color: #5f5f5f;
+}
+
+.header-main a:hover {
+    text-decoration: underline;
+    color: #5f5f5f;
+}
+
+/* RIGHT SIDE */
+
+.header-main-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 2%;
+}
+
+.header-main-right button {
+    height: 50px;
+    padding: 4px;
+    background-color: white;
+    border: none;
+}
+
+.header-main-right .Micro-products button select option a:hover {
+    height: 50px;
+    padding: 4px;
+    background-color: white;
+    border: none;
+    text-decoration: underline;
+}
+
+.header-main-right select {
+    border: 0;
+    color: #5f5f5f;
+    background-color: #fff;
+}
+
+.header-main-right .search-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-main-right .search-btn img {
+    width: 17px;
+    margin-left: 7px;
+    margin-right: 2px;
+}
+
+.header-main-right .login-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-main-right .login-icon img {
+    width: 22px;
+    margin-left: 7px;
+}
+
+.header-main-right a {
+    color: #5f5f5f;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.header-main-right a:hover {
+    color: #5f5f5f;
+    text-decoration: underline;
+    margin-right: 5px;
+}
+
+/* MAIN */
+.main {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 2%;
+}
+
+.background-img {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: center;
+    height: 505px;
+
+}
+
+.background-img img {
+    border: 0;
+}
+
+.background-img .head1 {
+    position: absolute;
+    font-size: 40px;
+    font-weight: 550;
+    color: black;
+    width: 400px;
+    margin-bottom: 16px;
+    left: 11%;
+    bottom: 54%;
+}
+
+.background-img .par2 {
+    position: absolute;
+    color: rgb(56, 56, 56);
+    width: 600px;
+    margin-bottom: 20px;
+    left: 11%;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 38%;
+    left: 11%;
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons {
+    height: 40px;
+    width: 500px;
+}
+
+.background-img #white {
+    font-size: 14px;
+    padding: 0 12px;
+    border: none;
+    background-color: #0067b8;
+}
+
+.background-img #white:hover {
+    background-color: #02599e;
+}
+
+.background-img #black {
+    font-size: 14px;
+    padding: 0 12px;
+    border: none;
+    background-color: transparent;
+    margin-left: 1%;
+}
+
+.background-img button {
+    text-decoration: none;
+}
+
+.background-img button #six {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.background-img button #six:hover {
+    text-decoration: underline;
+}
+
+.background-img button #one {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    font-weight: 300;
+}
+
+/* BLOCKS */
+.footer {
+    width: 87%;
+    margin-left: 8%;
+    height: 500px;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer .frame {
+    width: 320px;
+}
+
+.footer .frame img {
+    width: 320px;
+    margin-bottom: 30px;
+}
+
+.footer .frame button {
+    text-align: left;
+    background-color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+.footer .frame-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .frame-links a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #0067b8;
+    font-weight: 600;
+}
+
+.footer .frame-links a:hover {
+    margin-right: 20px;
+    text-decoration: underline;
+    color: #0067b8;
+    font-weight: 600;
+}
+
+.footer .frame #bigger-p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.footer .frame #med-p {
+    font-size: 16px;
+    margin-bottom: 12px;
+}

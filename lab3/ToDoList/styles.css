@@ -18,6 +18,10 @@ body {
     border: 2px solid #4d5aaf;
 }
 
+#new-task{
+    margin-top: 20px;
+}
+
 .container input {
     width: 60%;
     color: #111111;
@@ -25,6 +29,7 @@ body {
     border-radius: 5px;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
+    padding: 10px;
     border: 2px solid #d1d3d4;
 }
 
@@ -51,6 +56,8 @@ body {
     padding: 10px;
 }
 
+/* TASKS */
+
 #tasks {
     width: 50%;
     border-radius: 15px;
@@ -63,7 +70,7 @@ body {
     justify-content: space-between;
     border: 1px solid #939697;
     cursor: pointer;
-    background-color: #c5e1e6;
+    background-color: #ffffff;
     height: 50px;
     margin-bottom: 8px;
     padding: 5px 10px;

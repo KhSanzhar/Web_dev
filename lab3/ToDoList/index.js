@@ -1,22 +1,26 @@
-document.querySelector('#push').onclick = function () {
-    if (document.querySelector('#new-task input').value.length == 0) {
-        alert("Kindly Enter Task Name!!!!")
+
+function newElement() {
+    const li = document.createElement("li");
+    const inputValue = document.getElementById("myInput").value;
+    let t = document.createTextNode(inputValue);
+    li.appendChild(t);
+    if (inputValue === '') {
+        alert("You must write something!");
     } else {
-        document.querySelector('#tasks').innerHTML += `
-            <div class="task">
-                <span id="taskname">
-                    ${document.querySelector('#new-task input').value}
-                </span>
-                <button class="delete">
-                    X
-                </button>
-            </div>
-        `;
-        const current_tasks = document.querySelectorAll(".delete");
-        for (let i = 0; i < current_tasks.length; i++) {
-            current_tasks[i].onclick = function () {
-                this.parentNode.remove();
-            }
+        document.getElementById("tasks").appendChild(li);
+    }
+    document.getElementById("myInput").value = "";
+
+    const button = document.createElement("BUTTON");
+    const txt = document.createTextNode("\u00D7");
+    button.className = "close";
+    button.appendChild(txt);
+    li.appendChild(button);
+
+    for (let i = 0; i < close.length; i++) {
+        close[i].onclick = function () {
+            let div = this.parentElement;
+            div.style.display = "none";
         }
     }
-}
+} 

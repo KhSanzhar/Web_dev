@@ -1,5 +1,5 @@
 let d1 = new Date(2012, 1, 20, 3, 12);
-alert( d1 );
+alert(d1);
 
 //2
 function getWeekDay(date) {
@@ -9,7 +9,7 @@ function getWeekDay(date) {
 }
 
 let date = new Date(2014, 0, 3); // 3 Jan 2014
-alert( getWeekDay(date) ); // FR
+alert(getWeekDay(date)); // FR
 
 //3
 function getLocalDay(date) {
@@ -37,9 +37,9 @@ function getLastDayOfMonth(year, month) {
     return date.getDate();
 }
 
-alert( getLastDayOfMonth(2012, 0) ); // 31
-alert( getLastDayOfMonth(2012, 1) ); // 29
-alert( getLastDayOfMonth(2013, 1) ); // 28
+alert(getLastDayOfMonth(2012, 0)); // 31
+alert(getLastDayOfMonth(2012, 1)); // 29
+alert(getLastDayOfMonth(2013, 1)); // 28
 
 //6
 function getSecondsToday() {
@@ -47,7 +47,7 @@ function getSecondsToday() {
     return d.getHours() * 3600 + d.getMinutes() * 60 + d.getSeconds();
 }
 
-alert( getSecondsToday() );
+alert(getSecondsToday());
 
 //7
 function getSecondsToTomorrow() {
@@ -89,3 +89,4 @@ function formatDate(date) {
     } else {
         return `${dayOfMonth}.${month}.${year} ${hour}:${minutes}`
     }
+}

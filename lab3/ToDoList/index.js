@@ -1,4 +1,3 @@
-
 function newElement() {
     const li = document.createElement("li");
     const inputValue = document.getElementById("myInput").value;
@@ -23,4 +22,19 @@ function newElement() {
             div.style.display = "none";
         }
     }
-} 
+}
+
+const close = document.getElementsByClassName("close");
+for (let i = 0; i < close.length; i++) {
+    close[i].onclick = function () {
+        let div = this.parentElement;
+        div.style.display = "none";
+    }
+}
+
+const list = document.querySelector('ul');
+list.addEventListener('click', function (ev) {
+    if (ev.target.tagName === 'LI') {
+        ev.target.classList.toggle('checked');
+    }
+}, false);

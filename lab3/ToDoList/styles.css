@@ -39,7 +39,7 @@ body {
 
 /* BUTTON */
 
-.container addBtn {
+.container .addBtn {
     font-weight: 500;
     font-size: 25px;
     background-color: #0d75ec;

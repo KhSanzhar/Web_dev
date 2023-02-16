@@ -1,8 +1,18 @@
 <h2>Products</h2>
 <div *ngFor="let product of products">
   <h3>
-    {{ product.name }}
+    <a [title]="product.name + ' details'" href="product.link">
+      {{ product.name }}
+    </a>
   </h3>
+  <p *ngIf="product.description">
+    Description: {{ product.description }}
+  </p>
+  <a href="{{product.link}}" target='_blank'>
+    <button type="button">
+      Go to shop
+    </button>
+  </a>
 </div>
 
 <!--

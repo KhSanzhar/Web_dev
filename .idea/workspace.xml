@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8e3a6628-dc4a-4bfe-83fb-a0b4f5dfc48d" name="Changes" comment="&quot;-Angular fixed 'share' button&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Webdevelopment2023.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/app/cart.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/app/cart.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/app/cart/cart.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/app/cart/cart.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/app/cart/cart.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/app/cart/cart.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/app/product-alerts/product-alerts.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/app/product-alerts/product-alerts.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/app/product-alerts/product-alerts.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/app/product-alerts/product-alerts.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/app/product-details/product-details.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/app/product-details/product-details.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/app/product-details/product-details.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/app/product-details/product-details.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/app/product-list/product-list.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/app/product-list/product-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/app/product-list/product-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/app/products.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/app/shipping/shipping.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/app/shipping/shipping.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/app/shipping/shipping.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/app/shipping/shipping.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/app/top-bar/top-bar.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/app/top-bar/top-bar.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/app/top-bar/top-bar.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/assets/img/Asus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/assets/img/Ipad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/assets/img/Iphone11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/assets/img/Iphone13-mini.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/assets/img/Iphone13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/assets/img/Iphone14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/assets/img/LenovoIdeapad3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/assets/img/SamsungA13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/assets/img/SamsungGalaxyTab4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/assets/img/XiamoRedmi11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/assets/shipping.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/My_First_App/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khanacademy/CSS_text_properties/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khanacademy/CSS_text_properties/famous_font_formats.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khanacademy/CSS_text_properties/fancy_font_families.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khanacademy/CSS_text_properties/great_big_font_sizes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khanacademy/Intro_to_HTML/a_picturePerfect_trip.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khanacademy/Intro_to_HTML/wishlist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khanacademy/Intro_to_HTML/write_a_poem.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khanacademy/Intro_to_HTML/you_can_learn_text_tags.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khanacademy/Intro_to_css/Travel_webpage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khanacademy/Intro_to_css/apples_bananas_classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khanacademy/Intro_to_css/colorful_creature.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khanacademy/Intro_to_css/seasonal_ids.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khanacademy/MoreHTMLTags/Links_for_learning.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khanacademy/MoreHTMLTags/jump_around.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khanacademy/MoreHTMLTags/recipe_book.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khanacademy/MoreHTMLTags/the_dinner_table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khanacademy/css_layout/boxer_model.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khanacademy/css_layout/floating_clouds.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khanacademy/css_layout/group_the_groupers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khanacademy/css_layout/overflowing_ocean.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khanacademy/css_layout/position_planet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khanacademy/css_layout/project.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khanacademy/css_selectors/a_classy_gallery.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khanacademy/css_selectors/classes_of_elements.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khanacademy/css_selectors/descendants_of_khan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khanacademy/css_selectors/grouped_animals.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/Facebook/logoFacebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/Facebook/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/Facebook/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/Instagram/img/Appstore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/Instagram/img/Googleplay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/Instagram/img/Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/Instagram/img/facebook-login-btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/Instagram/img/orhr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/Instagram/img/screenphone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/Instagram/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/Instagram/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/Microsoft/img/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/Microsoft/img/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/Microsoft/img/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/Microsoft/img/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/Microsoft/img/LoginIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/Microsoft/img/LogoMicrosoft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/Microsoft/img/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/Microsoft/img/background2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/Microsoft/img/first.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/Microsoft/img/login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/Microsoft/img/search-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/Microsoft/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/Microsoft/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/CodeQuality/MochaTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/CodeQuality/badCode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/Data types/Json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/Data types/MapAndSet2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/Data types/MapAndSets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/Data types/array.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/Data types/arrayMethods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/Data types/dateAndTime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/Data types/destruction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/Data types/methods_on_primitives.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/Data types/number.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/Data types/objectAndKey.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/Data types/string.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/JavaScriptFundamentals/arrowfunction.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/JavaScriptFundamentals/helloworld.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/JavaScriptFundamentals/helloworld_external.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/JavaScriptFundamentals/ifelse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/JavaScriptFundamentals/js/arrowfunction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/JavaScriptFundamentals/js/comparison.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/JavaScriptFundamentals/js/datatypes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/JavaScriptFundamentals/js/functions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/JavaScriptFundamentals/js/helloworld.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/JavaScriptFundamentals/js/iselse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/JavaScriptFundamentals/js/logicalOperators.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/JavaScriptFundamentals/js/loops.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/JavaScriptFundamentals/js/postfix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/JavaScriptFundamentals/js/prompts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/JavaScriptFundamentals/js/switch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/JavaScriptFundamentals/js/variables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/JavaScriptFundamentals/prompts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/JavaScriptFundamentals/variables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/Objects:theBasics/accumulator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/Objects:theBasics/calculator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/Objects:theBasics/constructor_methood.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/Objects:theBasics/forin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/Objects:theBasics/helloObject.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/Objects:theBasics/isEmpty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/Objects:theBasics/ladder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/Objects:theBasics/multiplyNumeric.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/Objects:theBasics/new-calculator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/Objects:theBasics/object-methods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/Objects:theBasics/sumObject.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ToDoList/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ToDoList/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ToDoList/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udacity/firstlesson/Lesson11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udacity/firstlesson/lesson12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udacity/firstlesson/lesson2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udacity/firstlesson/lesson9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udacity/fourthlesson/cssproblem.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udacity/fourthlesson/editid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udacity/fourthlesson/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udacity/fourthlesson/last.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udacity/fourthlesson/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udacity/fourthlesson/thirdproblem.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udacity/secondlesson/button.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udacity/secondlesson/figures.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udacity/secondlesson/image.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udacity/secondlesson/job.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udacity/secondlesson/lists.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udacity/secondlesson/paragraph.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udacity/secondlesson/tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udacity/thirdlesson/classselectors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udacity/thirdlesson/css.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udacity/thirdlesson/styling.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udacity/thirdlesson/units.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2M08oQ6eHxbR5cONVs0PwPWeKQ2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "18.14.1",
+    "javascript.nodejs.core.library.typings.version": "18.14.0",
+    "last_opened_file_path": "C:/Users/asust/OneDrive/Рабочий стол/Web-Development-2023",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Users\\asust\\OneDrive\\Рабочий стол\\Web-Development-2023\\Lab4\\My_First_App\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e3a6628-dc4a-4bfe-83fb-a0b4f5dfc48d" name="Changes" comment="" />
+      <created>1676893313577</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676893313577</updated>
+      <workItem from="1676893314695" duration="52000" />
+      <workItem from="1676893367950" duration="3000" />
+      <workItem from="1676893457679" duration="890000" />
+      <workItem from="1676894434591" duration="2963000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;-Angular fixed 'share' button&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;-Angular fixed 'share' button&quot;" />
+  </component>
+</project>

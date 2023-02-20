@@ -1,0 +1,176 @@
+* {
+    font-family: -apple-system;
+}
+
+body {
+    background-color: #fafafa;
+    margin: 0px;
+    font-family: -apple-system;
+    height: 100vh;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    margin-top: 10px;
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+
+}
+
+.left-img {
+    height: 700px;
+    width: 430px;
+    transform: scale(0.9);
+
+}
+
+/* RIGHT SIDE */
+.right-submit-form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    background-color: white;
+    border: 1px solid rgb(219, 219, 219);
+    padding: 40px;
+    margin: 20px;
+}
+
+.right-submit-form img {
+    padding: 0 58px;
+}
+
+.login-btn {
+    background-color: #4bb4f8;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.or-tag {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+}
+
+.login-facebook {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.forgot-password {
+    color: #7c98b3;
+    padding: 10px;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: #144676;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+    color: #144676;
+}
+
+.dont-have-account {
+    background-color: white;
+    border: 1px solid rgb(219, 219, 219);
+    text-align: center;
+    padding: 12px;
+    margin: 20px;
+}
+
+#Sign-up {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#Sign-up:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.get-the-app {
+    text-align: center;
+}
+
+.stores {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.stores .applestore {
+    cursor: pointer;
+}
+
+.stores .google {
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    height: 10%;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-content span {
+    color: gray;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.insta-meta {
+
+    color: gray;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.languages {
+    text-align: center;
+    color: gray;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.languages select {
+    background-color: transparent;
+    border: 0;
+    color:gray
+}

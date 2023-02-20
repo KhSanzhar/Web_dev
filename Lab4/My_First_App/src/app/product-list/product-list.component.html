@@ -27,11 +27,9 @@
           </button>
         </a>
         <p>
-          <a href="https://web.whatsapp.com/" target="_blank">
-            <button type="button" (click)="share()">
-              Share
-            </button>
-          </a>
+          <button type="button" (click)="share(product.link)">
+            Share
+          </button>
         </p>
         <app-product-alerts
           [product]="product"

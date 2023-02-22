@@ -1,0 +1,9 @@
+<h2>Product Details</h2>
+
+<div *ngIf="product">
+  <h3>{{ product.name }}</h3>
+  <h4>{{ product.price | currency }}</h4>
+  <div style="width: 160px">{{ product.description }}</div>
+  <button type="button" (click)="addToCart(product)"><a style = 'color:#fff' href="{{ product.link }}">Buy on Kaspi.kz</a></button>
+  
+</div>

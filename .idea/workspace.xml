@@ -4,13 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e3a6628-dc4a-4bfe-83fb-a0b4f5dfc48d" name="Changes" comment="&quot;-Angular fixed 'share' button&quot;">
+    <list default="true" id="8e3a6628-dc4a-4bfe-83fb-a0b4f5dfc48d" name="Changes" comment="&quot;Lab5 - created Angular project&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/lab5_angular/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/lab5_angular/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/lab5_angular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/lab5_angular/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/lab5_angular/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/lab5_angular/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/lab5_angular/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/lab5_angular/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/lab5_angular/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/lab5_angular/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -23,25 +35,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.14.1&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.14.0&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/asust/OneDrive/Рабочий стол/Web-Development-2023&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\asust\\OneDrive\\Рабочий стол\\Web-Development-2023\\Lab4\\My_First_App\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "18.14.1",
+    "javascript.nodejs.core.library.typings.version": "18.14.0",
+    "last_opened_file_path": "C:/Users/asust/OneDrive/Рабочий стол/Web-Development-2023",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Users\\asust\\OneDrive\\Рабочий стол\\Web-Development-2023\\Lab4\\My_First_App\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\asust\OneDrive\Рабочий стол\Web-Development-2023\lab5" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,6 +75,9 @@
       <workItem from="1676977093391" duration="60000" />
       <workItem from="1676977515794" duration="512000" />
       <workItem from="1676978374149" duration="1865000" />
+      <workItem from="1677053383225" duration="1285000" />
+      <workItem from="1677059283063" duration="24000" />
+      <workItem from="1677064443698" duration="1692000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;-Angular fixed 'share' button&quot;">
       <created>1676897519569</created>
@@ -66,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676897519569</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&quot;Lab5 - created Angular project&quot;">
+      <created>1677053654913</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677053654913</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,6 +101,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;-Angular fixed 'share' button&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;-Angular fixed 'share' button&quot;" />
+    <MESSAGE value="&quot;Lab5 - created Angular project&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Lab5 - created Angular project&quot;" />
   </component>
 </project>

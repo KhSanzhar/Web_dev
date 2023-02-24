@@ -121,6 +121,14 @@ app-header h1 {
   color: white;
   margin: 0;
 }
+app-header h2,h3,h4,h5,h6{
+  color: white;
+  margin: 0;
+}
+app-header h2,h3,h4,h5,h6:hover{
+  font-weight: 700;
+  margin: 0;
+}
 
 /* Checkout Cart, Shipping Prices */
 

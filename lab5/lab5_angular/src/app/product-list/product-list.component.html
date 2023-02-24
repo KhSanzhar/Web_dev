@@ -1,1 +1,37 @@
-<p>product-list works!</p>
+<div class="container">
+  <div *ngIf="category">
+    <div class="items" *ngFor="let product of products">
+      <div *ngIf="category.category === product.category">
+        <h3>
+          <a
+            [title]="product.name">
+            {{ product.name }}
+          </a>
+        </h3>
+        <div class="title_name">
+          <img src="../assets/img/{{product.img}}" alt="Product From Kaspi" width="250" height="300"/>
+        </div>
+        <div class="border_items">
+          <p *ngIf="product.description">
+            Description: {{ product.description }}
+          </p>
+          <p *ngIf="product.rating">
+            ★{{product.rating}}★
+          </p>
+          <a href="{{product.link}}" target='_blank'>
+            <button type="button">
+              Go to shop
+            </button>
+          </a>
+          <p>
+            <a href="https://web.whatsapp.com/" target="_blank">
+              <button type="button" (click)="share()">
+                Share
+              </button>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

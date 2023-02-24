@@ -1,7 +1,12 @@
 <a [routerLink]="['/']">
   <h1>My Store</h1>
 </a>
-
+<a *ngFor="let category of categories">
+  <h3
+    [title]="category.category"
+    [routerLink]="['/category',category.category]">
+    {{category.category}}</h3>
+</a>
 <a class="button fancy-button"><i class="material-icons">shopping_cart</i>Checkout</a>
 
 <!--

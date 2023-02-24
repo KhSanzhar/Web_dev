@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e3a6628-dc4a-4bfe-83fb-a0b4f5dfc48d" name="Changes" comment="&quot;Lab5 - created mock data&quot;">
+    <list default="true" id="8e3a6628-dc4a-4bfe-83fb-a0b4f5dfc48d" name="Changes" comment="&quot;Lab5 - created App component must show list of categories&#10;                When any category is selected, products of this category should be rendered&#10;&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/lab5_angular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/lab5_angular/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/lab5_angular/src/app/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/lab5_angular/src/app/header/header.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/lab5_angular/src/app/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/lab5_angular/src/app/header/header.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab5/lab5_angular/src/app/product-list/product-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/lab5_angular/src/app/product-list/product-list.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab5/lab5_angular/src/app/product-list/product-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/lab5_angular/src/app/product-list/product-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/lab5_angular/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/lab5_angular/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/lab5_angular/src/app/products.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/lab5_angular/src/app/products.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +76,7 @@
       <workItem from="1677053383225" duration="1285000" />
       <workItem from="1677059283063" duration="24000" />
       <workItem from="1677064443698" duration="5295000" />
-      <workItem from="1677252360694" duration="1601000" />
+      <workItem from="1677252360694" duration="4139000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;-Angular fixed 'share' button&quot;">
       <created>1676897519569</created>
@@ -102,7 +99,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677066231095</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&quot;Lab5 - created App component must show list of categories&#10;                When any category is selected, products of this category should be rendered&#10;&quot;">
+      <created>1677254005185</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677254005185</updated>
+    </task>
+    <task id="LOCAL-00005" summary="&quot;Lab5 - created App component must show list of categories&#10;                When any category is selected, products of this category should be rendered&#10;&quot;">
+      <created>1677254017425</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677254017425</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +123,7 @@
     <MESSAGE value="&quot;-Angular fixed 'share' button&quot;" />
     <MESSAGE value="&quot;Lab5 - created Angular project&quot;" />
     <MESSAGE value="&quot;Lab5 - created mock data&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Lab5 - created mock data&quot;" />
+    <MESSAGE value="&quot;Lab5 - created App component must show list of categories&#10;                When any category is selected, products of this category should be rendered&#10;&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Lab5 - created App component must show list of categories&#10;                When any category is selected, products of this category should be rendered&#10;&quot;" />
   </component>
 </project>

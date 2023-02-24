@@ -27,7 +27,8 @@ export class ProductListComponent {
   ngOnInit() {
     this.reloadCategory();
   }
-  reloadCategory(){
+
+  reloadCategory() {
     const routeParams = this._activatedRoute.snapshot.paramMap;
     const productCategoryFromRoute = String(routeParams.get('categories'));
     // Find the product that correspond with the id provided in route.
@@ -41,5 +42,9 @@ export class ProductListComponent {
   onNotify() {
     window.alert('You will be notified when the product goes on sale');
   }
+
+  buttonHandler = (idx: number) => {
+    products.find(product => idx === product.id ? product.NumOfLikes += 1 : 0);
+  };
 
 }

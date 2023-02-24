@@ -18,18 +18,23 @@
           <p *ngIf="product.rating">
             ★{{product.rating}}★
           </p>
-          <a href="{{product.link}}" target='_blank'>
-            <button type="button">
-              Go to shop
-            </button>
-          </a>
-          <p>
-            <a href="https://web.whatsapp.com/" target="_blank">
+          <div class="go-to-shop">
+            <a href="{{product.link}}" target='_blank'>
+              <button type="button">
+                Go to shop
+              </button>
+            </a>
+          </div>
+          <div class="important-btns">
+            <p>
               <button type="button" (click)="share()">
                 Share
               </button>
-            </a>
-          </p>
+              <button (click)="buttonHandler(product.id)">
+                ♡{{product.NumOfLikes}}♡
+              </button>
+            </p>
+          </div>
         </div>
       </div>
     </div>

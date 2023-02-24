@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e3a6628-dc4a-4bfe-83fb-a0b4f5dfc48d" name="Changes" comment="&quot;Lab5 - when click “Like” button, number of likes should be increased&quot;">
+    <list default="true" id="8e3a6628-dc4a-4bfe-83fb-a0b4f5dfc48d" name="Changes" comment="&quot;Lab5 - added removable btn&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/lab5_angular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/lab5_angular/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/lab5_angular/src/app/header/header.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/lab5_angular/src/app/header/header.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/lab5_angular/src/app/product-list/product-list.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/lab5_angular/src/app/product-list/product-list.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab5/lab5_angular/src/app/product-list/product-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/lab5_angular/src/app/product-list/product-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/lab5_angular/src/app/product-list/product-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/lab5_angular/src/app/product-list/product-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/lab5_angular/src/app/products.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/lab5_angular/src/app/products.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +75,7 @@
       <workItem from="1677053383225" duration="1285000" />
       <workItem from="1677059283063" duration="24000" />
       <workItem from="1677064443698" duration="5295000" />
-      <workItem from="1677252360694" duration="5434000" />
+      <workItem from="1677252360694" duration="6355000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;-Angular fixed 'share' button&quot;">
       <created>1676897519569</created>
@@ -122,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677256778634</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="&quot;Lab5 - added removable btn&quot;">
+      <created>1677257997241</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677257997241</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +138,7 @@
     <MESSAGE value="&quot;Lab5 - created mock data&quot;" />
     <MESSAGE value="&quot;Lab5 - created App component must show list of categories&#10;                When any category is selected, products of this category should be rendered&#10;&quot;" />
     <MESSAGE value="&quot;Lab5 - when click “Like” button, number of likes should be increased&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Lab5 - when click “Like” button, number of likes should be increased&quot;" />
+    <MESSAGE value="&quot;Lab5 - added removable btn&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Lab5 - added removable btn&quot;" />
   </component>
 </project>

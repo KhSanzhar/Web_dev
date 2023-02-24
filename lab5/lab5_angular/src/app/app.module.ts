@@ -7,7 +7,8 @@ import {AppComponent} from './app.component';
 import {ProductListComponent} from './product-list/product-list.component';
 import {ProductItemComponent} from './product-item/product-item.component';
 import {HeaderComponent} from './header/header.component';
-import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
+import {ProductAlertsComponent} from './product-alerts/product-alerts.component';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -15,14 +16,15 @@ import { ProductAlertsComponent } from './product-alerts/product-alerts.componen
     ProductListComponent,
     ProductItemComponent,
     HeaderComponent,
-    ProductAlertsComponent
+    ProductAlertsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot([
-      {path: 'category/:categories',component:ProductListComponent}
-    ])
+      {path: 'category/:categories', component: ProductListComponent}
+    ]),
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

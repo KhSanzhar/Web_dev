@@ -7,7 +7,9 @@ export interface Product {
   img: string;
   category: string;
   NumOfLikes: number;
+  IsShown: boolean;
 }
+
 
 export const products = [
   {
@@ -19,6 +21,7 @@ export const products = [
     img: `Iphone11.jpg`,
     category: 'Phone',
     NumOfLikes: 0,
+    IsShown: false,
   },
   {
     id: 2,
@@ -29,6 +32,7 @@ export const products = [
     img: 'Iphone13-mini.jpg',
     category: 'Phone',
     NumOfLikes: 0,
+    IsShown: false,
   },
   {
     id: 3,
@@ -39,6 +43,7 @@ export const products = [
     img: 'Ipad.jpg',
     category: 'Tablets',
     NumOfLikes: 0,
+    IsShown: false,
   },
   {
     id: 4,
@@ -48,7 +53,8 @@ export const products = [
     link: 'https://kaspi.kz/shop/p/asus-x515ea-bq3144w-i385suw1-90nb0ty1-m02zl0-temno-seryi-107650928/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_search_kaspi_brand_desktop&gclid=Cj0KCQiAxbefBhDfARIsAL4XLRqJQ2ypisjDix88pAAY3uqDCOhK633XOEVDbIroqqdhBMpVDxpsd6EaAp31EALw_wcB#!/item ',
     img: 'Asus.jpg',
     category: 'Laptops',
-    NumOfLikes:0,
+    NumOfLikes: 0,
+    IsShown: false,
   },
   {
     id: 5,
@@ -58,7 +64,8 @@ export const products = [
     link: 'https://kaspi.kz/shop/p/apple-iphone-13-128gb-chernyi-102298404/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_search_kaspi_brand_desktop&gclid=Cj0KCQiAxbefBhDfARIsAL4XLRqJQ2ypisjDix88pAAY3uqDCOhK633XOEVDbIroqqdhBMpVDxpsd6EaAp31EALw_wcB#!/item',
     img: 'Iphone13.jpg',
     category: 'Phone',
-    NumOfLikes:0,
+    NumOfLikes: 0,
+    IsShown: false,
   },
   {
     id: 6,
@@ -68,7 +75,8 @@ export const products = [
     link: 'https://kaspi.kz/shop/p/apple-iphone-14-128gb-chernyi-106363023/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_search_kaspi_brand_desktop&gclid=Cj0KCQiAxbefBhDfARIsAL4XLRqJQ2ypisjDix88pAAY3uqDCOhK633XOEVDbIroqqdhBMpVDxpsd6EaAp31EALw_wcB#!/item',
     img: 'Iphone14.jpg',
     category: 'Phone',
-    NumOfLikes:0,
+    NumOfLikes: 0,
+    IsShown: false,
   },
   {
     id: 7,
@@ -78,7 +86,8 @@ export const products = [
     link: 'https://kaspi.kz/shop/p/lenovo-ideapad-3-15itl6-82h8005grk-serebristyi-108090705/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_search_kaspi_brand_desktop&gclid=Cj0KCQiAxbefBhDfARIsAL4XLRqJQ2ypisjDix88pAAY3uqDCOhK633XOEVDbIroqqdhBMpVDxpsd6EaAp31EALw_wcB#!/item',
     img: 'LenovoIdeapad3.jpg',
     category: 'Laptops',
-    NumOfLikes:0,
+    NumOfLikes: 0,
+    IsShown: false,
   },
   {
     id: 8,
@@ -88,7 +97,8 @@ export const products = [
     link: 'https://kaspi.kz/shop/p/samsung-galaxy-a13-4-gb-128-gb-chernyi-104253279/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_search_kaspi_brand_desktop&gclid=Cj0KCQiAxbefBhDfARIsAL4XLRqJQ2ypisjDix88pAAY3uqDCOhK633XOEVDbIroqqdhBMpVDxpsd6EaAp31EALw_wcB#!/item',
     img: 'SamsungA13.jpg',
     category: 'Phone',
-    NumOfLikes:0,
+    NumOfLikes: 0,
+    IsShown: false,
   },
   {
     id: 9,
@@ -98,7 +108,8 @@ export const products = [
     link: 'https://kaspi.kz/shop/p/samsung-galaxy-tab-a8-sm-x205n-10-5-djuimov-4-gb-64-gb-seryi-103450735/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_search_kaspi_brand_desktop&gclid=Cj0KCQiAxbefBhDfARIsAL4XLRqJQ2ypisjDix88pAAY3uqDCOhK633XOEVDbIroqqdhBMpVDxpsd6EaAp31EALw_wcB#!/item',
     img: 'SamsungGalaxyTab4.jpg',
     category: 'Tablets',
-    NumOfLikes:0,
+    NumOfLikes: 0,
+    IsShown: false,
   },
   {
     id: 10,
@@ -108,7 +119,8 @@ export const products = [
     link: 'https://kaspi.kz/shop/p/xiaomi-redmi-10c-4-gb-128-gb-seryi-104417231/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_search_kaspi_brand_desktop&gclid=Cj0KCQiAxbefBhDfARIsAL4XLRqJQ2ypisjDix88pAAY3uqDCOhK633XOEVDbIroqqdhBMpVDxpsd6EaAp31EALw_wcB#!/item',
     img: 'XiamoRedmi11.jpg',
     category: 'Phone',
-    NumOfLikes:0,
+    NumOfLikes: 0,
+    IsShown: false,
   },
   {
     id: 11,
@@ -118,7 +130,8 @@ export const products = [
     link: 'https://kaspi.kz/shop/p/acer-nitro-5-an515-57-nh-qeker-004-chernyi-108194028/?c=750000000#!/item',
     img: 'AcerNitro5.jpg',
     category: 'Laptops',
-    NumOfLikes:0,
+    NumOfLikes: 0,
+    IsShown: false,
   },
   {
     id: 12,
@@ -127,7 +140,8 @@ export const products = [
     link: 'https://kaspi.kz/shop/p/asus-tuf-gaming-a15-fa506ihrb-hn084-90nr07g7-m008c0-chernyi-106255184/?c=750000000#!/item',
     img: 'AsusTUFGaming.jpg',
     category: 'Laptops',
-    NumOfLikes:0,
+    NumOfLikes: 0,
+    IsShown: false,
   },
   {
     id: 13,
@@ -136,7 +150,8 @@ export const products = [
     link: 'https://kaspi.kz/shop/p/hp-15s-eq1387ur-4z3a4ea-serebristyi-108203227/?c=750000000#!/item',
     img: 'HP15S.jpg',
     category: 'Laptops',
-    NumOfLikes:0,
+    NumOfLikes: 0,
+    IsShown: false,
   },
   {
     id: 14,
@@ -145,7 +160,8 @@ export const products = [
     link: 'https://kaspi.kz/shop/p/teclast-p40hd-10-1-djuim-4-gb-64-gb-seryi-107576387/?c=750000000#!/item',
     img: 'Teclast.jpg',
     category: 'Tablets',
-    NumOfLikes:0,
+    NumOfLikes: 0,
+    IsShown: false,
   },
   {
     id: 15,
@@ -154,7 +170,8 @@ export const products = [
     link: 'https://kaspi.kz/shop/p/htc-a103-10-1-djuim-4-gb-64-gb-seryi-106512370/?c=750000000#!/item',
     img: 'HTC A103.jpg',
     category: 'Tablets',
-    NumOfLikes:0,
+    NumOfLikes: 0,
+    IsShown: false,
   },
   {
     id: 16,
@@ -163,7 +180,8 @@ export const products = [
     link: 'https://kaspi.kz/shop/p/xiaomi-mi-pad-5-11-djuim-6-gb-128-gb-belyi-102301115/?c=750000000#!/item',
     img: 'XiaomiMiPad.jpg',
     category: 'Tablets',
-    NumOfLikes:0,
+    NumOfLikes: 0,
+    IsShown: false,
   },
   {
     id: 17,
@@ -172,7 +190,8 @@ export const products = [
     link: 'https://kaspi.kz/shop/p/lg-43lm5772pla-109-sm-chernyi-101293496/?c=750000000#!/item',
     img: 'LG.jpg',
     category: 'TV',
-    NumOfLikes:0,
+    NumOfLikes: 0,
+    IsShown: false,
   },
   {
     id: 18,
@@ -181,7 +200,8 @@ export const products = [
     link: 'https://kaspi.kz/shop/p/yasin-led-32e7000-81-sm-chernyi-103411518/?c=750000000#!/item',
     img: 'Yasin.jpg',
     category: 'TV',
-    NumOfLikes:0,
+    NumOfLikes: 0,
+    IsShown: false,
   },
   {
     id: 19,
@@ -190,7 +210,8 @@ export const products = [
     link: 'https://kaspi.kz/shop/p/tcl-43p615-109-sm-chernyi-102569498/?c=750000000#!/item',
     img: 'TCL.jpg',
     category: 'TV',
-    NumOfLikes:0,
+    NumOfLikes: 0,
+    IsShown: false,
   },
   {
     id: 20,
@@ -199,7 +220,8 @@ export const products = [
     link: 'https://kaspi.kz/shop/p/xiaomi-mi-tv-p1-l43m6-6arg-109-sm-chernyi-102743844/?c=750000000#!/item',
     img: 'XiaomiMITV.jpg',
     category: 'TV',
-    NumOfLikes:0,
+    NumOfLikes: 0,
+    IsShown: false,
   },
   {
     id: 21,
@@ -208,6 +230,7 @@ export const products = [
     link: 'https://kaspi.kz/shop/p/ssmart-43f20-109-sm-chernyi-105159159/?c=750000000#!/item',
     img: 'SSMART.jpg',
     category: 'TV',
-    NumOfLikes:0,
+    NumOfLikes: 0,
+    IsShown: false,
   }
 ];

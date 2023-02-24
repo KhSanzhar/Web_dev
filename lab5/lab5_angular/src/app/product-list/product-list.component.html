@@ -2,6 +2,7 @@
   <div *ngIf="category">
     <div class="items" *ngFor="let product of products">
       <div *ngIf="category.category === product.category">
+        <span [class.show_product]="product.IsShown">
         <h3>
           <a
             [title]="product.name">
@@ -24,6 +25,7 @@
                 Go to shop
               </button>
             </a>
+
           </div>
           <div class="important-btns">
             <p>
@@ -33,9 +35,12 @@
               <button (click)="buttonHandler(product.id)">
                 ♡{{product.NumOfLikes}}♡
               </button>
+
             </p>
           </div>
         </div>
+     </span> <input type="checkbox"
+                    [(ngModel)]="product.IsShown"> Delete?
       </div>
     </div>
   </div>

@@ -47,4 +47,8 @@ export class ProductListComponent {
     products.find(product => idx === product.id ? product.NumOfLikes += 1 : 0);
   };
 
+  buttonRemover = (idx: number) => {
+
+  }
+
 }

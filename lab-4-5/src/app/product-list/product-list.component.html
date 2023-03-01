@@ -1,0 +1,17 @@
+<h2>Products</h2>
+
+<div  *ngFor="let product of products">
+    <div *ngIf=" prd && prd.category===product.category">
+        <app-product-item  [product]="product"></app-product-item>
+
+            <a href="https://web.whatsapp.com/"><button type="button">
+                    Share
+                </button>
+            </a>
+
+            <app-product-alerts
+                [product]="product"
+                (notify)="onNotify()">
+            </app-product-alerts>
+    </div>
+</div>

@@ -1,0 +1,44 @@
+<div *ngIf="product">
+   <h3>
+        <a [title]="product.name + ' details'"
+        [routerLink]="['/products', product.id]">
+            {{ product.name }}
+        </a>
+    </h3>
+
+    <p >
+        Description: {{ product.description }}
+    </p>
+    <p >
+        Rating: {{ product.rating }}
+    </p>
+
+    <div>
+        <img width="100px" src="{{ product.image }}" >
+    </div>
+
+    <p > {{product.like}}
+        <button (click)="onClick(product)">Like </button>
+    </p>
+    <!-- <p *ngIf="cntLikes >= 1">
+        <button (click)="onClick()"> Like{{cntLikes }}</button>
+      </p> -->
+</div>
+<!-- <h3>
+    <a [title]="'Buy on Amazon'" href={{ product.link }}
+        target="_blank">
+        {{ product.name }}
+    </a>
+</h3>
+
+<p *ngIf="product.decription">
+    Description: {{ product.description }}
+</p>
+
+<p *ngIf="product.rating">
+    Rating: <span class="fa fa-star checked"></span> {{ product.rating }}
+</p>
+
+<div>
+    <img *ngIf="product.image" src="{{ product.image }}" [class.img]="product" alt="">
+</div> -->

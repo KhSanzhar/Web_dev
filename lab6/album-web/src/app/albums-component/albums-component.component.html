@@ -1,1 +1,17 @@
-<p>albums-component works!</p>
+<div class="main">
+  <div class="main-title">
+    <h1>Albums Page</h1>
+  </div>
+  <div class="main-album">
+    <div *ngFor="let album of albums" class="main-items">
+      <div class='items'>
+        <a class="link" routerLink="{{ album.id }}">{{ album.id }} - {{ album.title }}</a>
+      <div class="btn-delete">
+        <button (click)="deleteAlbum(album)" class="btn btn-primary">
+          <p>X</p>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>

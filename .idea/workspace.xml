@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e3a6628-dc4a-4bfe-83fb-a0b4f5dfc48d" name="Changes" comment="&quot;Lab5 - added css&quot;" />
+    <list default="true" id="8e3a6628-dc4a-4bfe-83fb-a0b4f5dfc48d" name="Changes" comment="&quot;Lab5 - fixed css&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/Facebook/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/Facebook/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/Data types/array.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/Data types/array.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ToDoList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/ToDoList/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/ToDoList/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/ToDoList/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,6 +78,15 @@
       <workItem from="1677059283063" duration="24000" />
       <workItem from="1677064443698" duration="5295000" />
       <workItem from="1677252360694" duration="6575000" />
+      <workItem from="1677259122796" duration="89000" />
+      <workItem from="1677479033547" duration="74000" />
+      <workItem from="1677788863525" duration="2000" />
+      <workItem from="1677828077658" duration="217000" />
+      <workItem from="1677920619496" duration="3539000" />
+      <workItem from="1677925565156" duration="1074000" />
+      <workItem from="1677927456839" duration="4431000" />
+      <workItem from="1677950317268" duration="46000" />
+      <workItem from="1677952383476" duration="21000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;-Angular fixed 'share' button&quot;">
       <created>1676897519569</created>
@@ -129,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677259017025</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="&quot;Lab5 - fixed css&quot;">
+      <created>1677259180325</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677259180325</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +165,7 @@
     <MESSAGE value="&quot;Lab5 - when click “Like” button, number of likes should be increased&quot;" />
     <MESSAGE value="&quot;Lab5 - added removable btn&quot;" />
     <MESSAGE value="&quot;Lab5 - added css&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Lab5 - added css&quot;" />
+    <MESSAGE value="&quot;Lab5 - fixed css&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Lab5 - fixed css&quot;" />
   </component>
 </project>

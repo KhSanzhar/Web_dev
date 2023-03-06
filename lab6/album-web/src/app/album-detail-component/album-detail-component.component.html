@@ -1,1 +1,29 @@
-<p>album-detail-component works!</p>
+<div class="main">
+  <div class="main-title">
+    <button (click)="goBack()" class="btn btn-primary">Return back</button>
+  </div>
+  <div>
+    <h1>Album Page</h1>
+  </div>
+  <div class="main-album">
+    <h2>{{ album.title }}</h2>
+
+    <div class="main-album-name">
+      <h2>
+        <input [(ngModel)]="newTitle" type="text"/>
+      </h2>
+
+      <div class="main-info">
+        <button (click)="saveTitle()" class="btn btn-primary">
+          V
+        </button>
+      </div>
+    </div>
+
+    <div class="main-info">
+      <h2>
+        <a class="link" routerLink="/albums/{{ album.id }}/photos">Photos</a>
+      </h2>
+    </div>
+  </div>
+</div>

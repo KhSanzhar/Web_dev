@@ -18,7 +18,7 @@ export class AlbumsComponentComponent {
   ngOnInit(): void {
     this.albumsService.getAlbums().subscribe(
       (response) => {
-        this.albums = response.slice(0, 10);
+        this.albums = response.slice(0, 15);
       },
       (error) => {
         console.log(error);

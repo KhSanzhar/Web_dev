@@ -11,23 +11,26 @@ import {ProductAlertsComponent} from './product-alerts/product-alerts.component'
 import {FormsModule} from "@angular/forms";
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    ProductListComponent,
-    ProductItemComponent,
-    HeaderComponent,
-    ProductAlertsComponent,
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    RouterModule.forRoot([
-      {path: 'category/:categories', component: ProductListComponent}
-    ]),
-    FormsModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        ProductListComponent,
+        ProductItemComponent,
+        HeaderComponent,
+        ProductAlertsComponent,
+    ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        RouterModule.forRoot([
+            {path: 'category/:categories', component: ProductListComponent}
+        ]),
+        FormsModule
+    ],
+    providers: [],
+    exports: [
+        HeaderComponent
+    ],
+    bootstrap: [AppComponent]
 })
 export class AppModule {
 }

@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e3a6628-dc4a-4bfe-83fb-a0b4f5dfc48d" name="Changes" comment="&quot;Lab6 - created routes for components&quot;">
+    <list default="true" id="8e3a6628-dc4a-4bfe-83fb-a0b4f5dfc48d" name="Changes" comment="&quot;Lab6 - created header &amp;&amp; linked to components&quot;">
+      <change afterPath="$PROJECT_DIR$/lab6/album-web/src/app/albums.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/album-web/src/app/photos.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/lab5_angular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/lab5_angular/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab6/album-web/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/album-web/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab6/album-web/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/album-web/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab6/album-web/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/album-web/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +86,7 @@
       <workItem from="1677927456839" duration="4431000" />
       <workItem from="1677950317268" duration="46000" />
       <workItem from="1677952383476" duration="21000" />
-      <workItem from="1678091302429" duration="3161000" />
+      <workItem from="1678091302429" duration="4379000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;-Angular fixed 'share' button&quot;">
       <created>1676897519569</created>
@@ -166,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678092945982</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="&quot;Lab6 - created header &amp;&amp; linked to components&quot;">
+      <created>1678095417096</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1678095417096</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +189,7 @@
     <MESSAGE value="&quot;Lab5 - fixed css&quot;" />
     <MESSAGE value="&quot;Lab6 - created Angular app&quot;" />
     <MESSAGE value="&quot;Lab6 - created routes for components&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Lab6 - created routes for components&quot;" />
+    <MESSAGE value="&quot;Lab6 - created header &amp;&amp; linked to components&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Lab6 - created header &amp;&amp; linked to components&quot;" />
   </component>
 </project>

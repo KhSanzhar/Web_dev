@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e3a6628-dc4a-4bfe-83fb-a0b4f5dfc48d" name="Changes" comment="&quot;Lab 7 - Ввод-вывод, оператор присваивания&quot;" />
+    <list default="true" id="8e3a6628-dc4a-4bfe-83fb-a0b4f5dfc48d" name="Changes" comment="&quot;Lab 7 - Массивы и Функции&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +88,7 @@
       <workItem from="1678539001752" duration="53000" />
       <workItem from="1679556004603" duration="559000" />
       <workItem from="1679556727267" duration="39000" />
-      <workItem from="1679557133389" duration="395000" />
+      <workItem from="1679557133389" duration="1654000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;-Angular fixed 'share' button&quot;">
       <created>1676897519569</created>
@@ -207,7 +209,28 @@
       <option name="project" value="LOCAL" />
       <updated>1679557153472</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="&quot;Lab 7 - Условный оператор&quot;">
+      <created>1679557547428</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1679557547428</updated>
+    </task>
+    <task id="LOCAL-00019" summary="&quot;Lab 7 - Циклы&quot;">
+      <created>1679558554755</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1679558554755</updated>
+    </task>
+    <task id="LOCAL-00020" summary="&quot;Lab 7 - Массивы и Функции&quot;">
+      <created>1679558872100</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1679558872100</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +252,9 @@
     <MESSAGE value="&quot;Lab 7 - created django project and installed it succesfully&quot;" />
     <MESSAGE value="&quot;Lab 7 - created superuser and succesfully logged in!&quot;" />
     <MESSAGE value="&quot;Lab 7 - Ввод-вывод, оператор присваивания&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Lab 7 - Ввод-вывод, оператор присваивания&quot;" />
+    <MESSAGE value="&quot;Lab 7 - Условный оператор&quot;" />
+    <MESSAGE value="&quot;Lab 7 - Циклы&quot;" />
+    <MESSAGE value="&quot;Lab 7 - Массивы и Функции&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Lab 7 - Массивы и Функции&quot;" />
   </component>
 </project>

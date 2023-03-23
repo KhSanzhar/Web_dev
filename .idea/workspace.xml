@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e3a6628-dc4a-4bfe-83fb-a0b4f5dfc48d" name="Changes" comment="&quot;Lab 7 - created django project and installed it succesfully&quot;">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="8e3a6628-dc4a-4bfe-83fb-a0b4f5dfc48d" name="Changes" comment="&quot;Lab 7 - created superuser and succesfully logged in!&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,25 +30,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "javascript.nodejs.core.library.configured.version": "18.14.1",
-    "javascript.nodejs.core.library.typings.version": "18.14.1",
-    "last_opened_file_path": "C:/Users/asust/OneDrive/Рабочий стол/Web-Development-2023",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\asust\\OneDrive\\Рабочий стол\\Web-Development-2023\\Lab4\\My_First_App\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.14.1&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.14.1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/asust/OneDrive/Рабочий стол/Web-Development-2023&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\asust\\OneDrive\\Рабочий стол\\Web-Development-2023\\Lab4\\My_First_App\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\asust\OneDrive\Рабочий стол\Web-Development-2023\lab5" />
@@ -86,7 +86,8 @@
       <workItem from="1678091302429" duration="7867000" />
       <workItem from="1678100542421" duration="1619000" />
       <workItem from="1678539001752" duration="53000" />
-      <workItem from="1679556004603" duration="327000" />
+      <workItem from="1679556004603" duration="559000" />
+      <workItem from="1679556727267" duration="39000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;-Angular fixed 'share' button&quot;">
       <created>1676897519569</created>
@@ -193,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679556072201</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="&quot;Lab 7 - created superuser and succesfully logged in!&quot;">
+      <created>1679556553847</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1679556553847</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +221,7 @@
     <MESSAGE value="&quot;Lab6 - created header &amp;&amp; linked to components&quot;" />
     <MESSAGE value="&quot;Lab6 - created albums component and implemented get request&quot;" />
     <MESSAGE value="&quot;Lab 7 - created django project and installed it succesfully&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Lab 7 - created django project and installed it succesfully&quot;" />
+    <MESSAGE value="&quot;Lab 7 - created superuser and succesfully logged in!&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Lab 7 - created superuser and succesfully logged in!&quot;" />
   </component>
 </project>

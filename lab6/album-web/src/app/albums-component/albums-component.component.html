@@ -2,8 +2,17 @@
   <div class="main-title">
     <h1>Albums Page</h1>
   </div>
+<!--  <form class="wrap">-->
+<!--    <div class="search">-->
+<!--      <h3>Search country by name filter : </h3>-->
+<!--      <input (input)="search(searchTerm)" [(ngModel)]="searchTerm" class="searchTerm"-->
+<!--             name="searchTerm"-->
+<!--             placeholder="Filter by country name" type="text"/>-->
+<!--    </div>-->
+<!--  </form>-->
+  <input (change) = "ldsfjlasdk()">
   <div class="main-album">
-    <div *ngFor="let album of albums" class="main-items">
+    <div *ngFor="let album of albums | searchFilter: searchTerm; index as i">
       <div class='items'>
         <a class="link" routerLink="{{ album.id }}">{{ album.id }} || {{ album.title }}</a>
         <div class="btn-delete">

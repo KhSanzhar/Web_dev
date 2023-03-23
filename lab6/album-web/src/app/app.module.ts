@@ -11,6 +11,8 @@ import { AlbumDetailComponentComponent } from './album-detail-component/album-de
 import { AlbumPhotosComponentComponent } from './album-photos-component/album-photos-component.component';
 import { HeaderComponent } from './header/header.component';
 import {FormsModule} from "@angular/forms";
+import {Ng2SearchPipe, Ng2SearchPipeModule} from "ng2-search-filter";
+import { SearchFilterPipe } from './search-filter.pipe';
 
 @NgModule({
   declarations: [
@@ -20,13 +22,15 @@ import {FormsModule} from "@angular/forms";
     AlbumsComponentComponent,
     AlbumDetailComponentComponent,
     AlbumPhotosComponentComponent,
-    HeaderComponent
+    HeaderComponent,
+    SearchFilterPipe
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    Ng2SearchPipeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

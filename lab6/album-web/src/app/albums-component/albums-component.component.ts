@@ -10,6 +10,7 @@ import {AlbumsService} from "./albums.service";
 })
 export class AlbumsComponentComponent {
   albums: Album[];
+  searchTerm = '';
 
   constructor(private albumsService: AlbumsService) {
     this.albums = [];
@@ -31,5 +32,11 @@ export class AlbumsComponentComponent {
     if (index !== -1) {
       this.albums.splice(index, 1);
     }
+  }
+
+  search(value: string): void {
+    this.albums = this.albums.filter((val) =>
+      val.title.toLowerCase().includes(value)
+    );
   }
 }

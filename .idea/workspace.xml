@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e3a6628-dc4a-4bfe-83fb-a0b4f5dfc48d" name="Changes" comment="&quot;Lab 7 - Массивы и Функции&quot;">
+    <list default="true" id="8e3a6628-dc4a-4bfe-83fb-a0b4f5dfc48d" name="Changes" comment="&quot;Lab 7 - hackerrank&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +88,7 @@
       <workItem from="1678539001752" duration="53000" />
       <workItem from="1679556004603" duration="559000" />
       <workItem from="1679556727267" duration="39000" />
-      <workItem from="1679557133389" duration="1654000" />
+      <workItem from="1679557133389" duration="2673000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;-Angular fixed 'share' button&quot;">
       <created>1676897519569</created>
@@ -230,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679558872100</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="&quot;Lab 7 - hackerrank&quot;">
+      <created>1679559412478</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1679559412478</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +262,7 @@
     <MESSAGE value="&quot;Lab 7 - Условный оператор&quot;" />
     <MESSAGE value="&quot;Lab 7 - Циклы&quot;" />
     <MESSAGE value="&quot;Lab 7 - Массивы и Функции&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Lab 7 - Массивы и Функции&quot;" />
+    <MESSAGE value="&quot;Lab 7 - hackerrank&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Lab 7 - hackerrank&quot;" />
   </component>
 </project>

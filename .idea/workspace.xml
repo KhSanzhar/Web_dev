@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e3a6628-dc4a-4bfe-83fb-a0b4f5dfc48d" name="Changes" comment="&quot;Lab 7 - created superuser and succesfully logged in!&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8e3a6628-dc4a-4bfe-83fb-a0b4f5dfc48d" name="Changes" comment="&quot;Lab 7 - Ввод-вывод, оператор присваивания&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,6 +86,7 @@
       <workItem from="1678539001752" duration="53000" />
       <workItem from="1679556004603" duration="559000" />
       <workItem from="1679556727267" duration="39000" />
+      <workItem from="1679557133389" duration="395000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;-Angular fixed 'share' button&quot;">
       <created>1676897519569</created>
@@ -201,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679556553847</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="&quot;Lab 7 - Ввод-вывод, оператор присваивания&quot;">
+      <created>1679557153472</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1679557153472</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +228,7 @@
     <MESSAGE value="&quot;Lab6 - created albums component and implemented get request&quot;" />
     <MESSAGE value="&quot;Lab 7 - created django project and installed it succesfully&quot;" />
     <MESSAGE value="&quot;Lab 7 - created superuser and succesfully logged in!&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Lab 7 - created superuser and succesfully logged in!&quot;" />
+    <MESSAGE value="&quot;Lab 7 - Ввод-вывод, оператор присваивания&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Lab 7 - Ввод-вывод, оператор присваивания&quot;" />
   </component>
 </project>

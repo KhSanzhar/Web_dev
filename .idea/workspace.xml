@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e3a6628-dc4a-4bfe-83fb-a0b4f5dfc48d" name="Changes" comment="&quot;Lab 7 - hackerrank&quot;">
+    <list default="true" id="8e3a6628-dc4a-4bfe-83fb-a0b4f5dfc48d" name="Changes" comment="&quot;Lab 7 - coding bat&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/Web-Development-2023.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Web-Development-2023.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -35,11 +37,10 @@
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.14.1&quot;,
     &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.14.1&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/asust/OneDrive/Рабочий стол/Web-Development-2023&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/asust/OneDrive/Рабочий стол/SocioLife&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -53,6 +54,30 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\asust\OneDrive\Рабочий стол\Web-Development-2023\lab5" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Web-Development-2023" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab8/shopBack" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab8/shopBack/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -88,7 +113,13 @@
       <workItem from="1678539001752" duration="53000" />
       <workItem from="1679556004603" duration="559000" />
       <workItem from="1679556727267" duration="39000" />
-      <workItem from="1679557133389" duration="2673000" />
+      <workItem from="1679557133389" duration="2779000" />
+      <workItem from="1679744186667" duration="377000" />
+      <workItem from="1680346623281" duration="4953000" />
+      <workItem from="1680505243173" duration="29000" />
+      <workItem from="1680511802838" duration="39000" />
+      <workItem from="1680584564515" duration="184000" />
+      <workItem from="1680584758668" duration="2238000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;-Angular fixed 'share' button&quot;">
       <created>1676897519569</created>
@@ -237,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679559412478</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="&quot;Lab 7 - coding bat&quot;">
+      <created>1679560292184</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1679560292184</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,6 +301,7 @@
     <MESSAGE value="&quot;Lab 7 - Циклы&quot;" />
     <MESSAGE value="&quot;Lab 7 - Массивы и Функции&quot;" />
     <MESSAGE value="&quot;Lab 7 - hackerrank&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Lab 7 - hackerrank&quot;" />
+    <MESSAGE value="&quot;Lab 7 - coding bat&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Lab 7 - coding bat&quot;" />
   </component>
 </project>

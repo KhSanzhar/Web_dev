@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e3a6628-dc4a-4bfe-83fb-a0b4f5dfc48d" name="Changes" comment="&quot;Lab 8 - Created Models of Product and Category&quot;">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="8e3a6628-dc4a-4bfe-83fb-a0b4f5dfc48d" name="Changes" comment="&quot;Lab 8 - Created Views and endpoints&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab8/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/lab8/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab8/mySiteAPI/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab8/mySiteAPI/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab8/mySiteAPI/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab8/mySiteAPI/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab8/mySiteAPI/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab8/mySiteAPI/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab8/mySiteAPI/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab8/mySiteAPI/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab8/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab8/mysite/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +123,10 @@
       <workItem from="1680511802838" duration="39000" />
       <workItem from="1680584564515" duration="184000" />
       <workItem from="1680584758668" duration="6077000" />
+      <workItem from="1680595590162" duration="173000" />
+      <workItem from="1680596133349" duration="16000" />
+      <workItem from="1680596924917" duration="16000" />
+      <workItem from="1680597471468" duration="358000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;-Angular fixed 'share' button&quot;">
       <created>1676897519569</created>
@@ -286,7 +289,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680587165872</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="&quot;Lab 8 - Created Views and endpoints&quot;">
+      <created>1680595747793</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1680595747793</updated>
+    </task>
+    <task id="LOCAL-00025" summary="&quot;Lab 8 - Created Views and endpoints&quot;">
+      <created>1680595760394</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1680595760394</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,6 +331,7 @@
     <MESSAGE value="&quot;Lab 7 - hackerrank&quot;" />
     <MESSAGE value="&quot;Lab 7 - coding bat&quot;" />
     <MESSAGE value="&quot;Lab 8 - Created Models of Product and Category&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Lab 8 - Created Models of Product and Category&quot;" />
+    <MESSAGE value="&quot;Lab 8 - Created Views and endpoints&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Lab 8 - Created Views and endpoints&quot;" />
   </component>
 </project>

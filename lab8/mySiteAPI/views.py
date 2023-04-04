@@ -19,7 +19,7 @@ def product(request, product_id):
 
 def all_categories(request):
     categories = Category.objects.all()
-    categories_json = [c.to_json for c in categories]
+    categories_json = [c.to_json() for c in categories]
     return JsonResponse(categories_json, safe=False)
 
 

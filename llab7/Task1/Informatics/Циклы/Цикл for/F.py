@@ -1,1 +1,0 @@
-print(input()[::-1].strip('0'))
